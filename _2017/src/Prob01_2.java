@@ -12,6 +12,8 @@ public class Prob01_2 {
 			String s = in.nextLine();  //1-800-CALL-NOW
 			System.out.println(convert(s));
 		}		
+		
+		in.close();
 	}	
 	
 	static String convert(String s){

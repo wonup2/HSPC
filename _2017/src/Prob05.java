@@ -11,5 +11,6 @@ public class Prob05 {
 					
 		if(ans == n) System.out.println(1);
 		else System.out.println(0);
+		in.close();
 	}
 }

@@ -13,6 +13,6 @@ public class Prob02 {
 			ans+=num;			
 		}
 		
-		System.out.println(ans);
+		System.out.println(ans);in.close();
 	}
 }

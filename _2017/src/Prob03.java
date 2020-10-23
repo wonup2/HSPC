@@ -14,6 +14,6 @@ public class Prob03 {
 			else if(op=='-') ans -= num;			
 		}		
 		
-		System.out.println(ans);
+		System.out.println(ans);in.close();
 	}
 }

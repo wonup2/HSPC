@@ -20,9 +20,10 @@ public class Prob07 {
 			}
 		}
 		
-		//spanning tree
+		System.out.println(Arrays.deepToString(a));
+		//dfs
 		
-		
+		in.close();
 	}
 
 	static boolean check(String a, String b) {

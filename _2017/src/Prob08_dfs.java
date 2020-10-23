@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Prob08_1 {
+public class Prob08_dfs {
 
 	static int a[][],n,m;
 
@@ -27,6 +27,8 @@ public class Prob08_1 {
 			}
 		}
 		System.out.println(ans);
+		
+		in.close();
 	}
 
 	static void dfs(int x, int y) {

@@ -13,5 +13,6 @@ public class Prob04 {
 		
 		for(int i=0; i<ans.length(); i++)
 			System.out.println(ans.charAt(i));		
+		in.close();
 	}
 }

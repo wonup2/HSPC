@@ -34,6 +34,8 @@ public class Prob08_bfs {
 		
 		System.out.println(count);
 		System.out.println(t);
+		
+		in.close();
 	}
 
 	public static int isLand(int[][] a, int x, int y){

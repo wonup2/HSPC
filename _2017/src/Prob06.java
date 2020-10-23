@@ -18,6 +18,8 @@ public class Prob06 {
 			if(letter.get(c)%2==1) odd++;
 		
 		if(odd<=1) System.out.println(1);
-		else System.out.println(0);		
+		else System.out.println(0);	
+		
+		in.close();
 	}
 }

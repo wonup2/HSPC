@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 public class Prob01{
 	
@@ -12,7 +11,7 @@ public class Prob01{
 			ans += change(s.charAt(i));
 			
 		System.out.println(ans);
-		
+		in.close();
 	}
 	
 	static char change(char c) {

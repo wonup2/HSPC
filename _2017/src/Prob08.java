@@ -29,6 +29,7 @@ public class Prob08 {
 			}
 		}
 		System.out.println(ans);
+		in.close();
 	}
 
 	static void dfs(int x, int y) {

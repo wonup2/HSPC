@@ -17,6 +17,8 @@ public class Prob06_2 {
 			if(letter[i]%2==1) odd++;
 		
 		if(odd<=1) System.out.println(1);
-		else System.out.println(0);		
+		else System.out.println(0);	
+		
+		in.close();
 	}
 }
